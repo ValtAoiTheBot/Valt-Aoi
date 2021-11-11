@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 import random
 import time
@@ -22,7 +24,7 @@ def animequotes(update: Update, context: CallbackContext):
 
 __help__ = """
  • `/Beybladequotes`*:* gives random Beyblade memes
- 
+ @VALTAOITHEBOT
 """
 ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("Beybladequotes", animequotes)
 
