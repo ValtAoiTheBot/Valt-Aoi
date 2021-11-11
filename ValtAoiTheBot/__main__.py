@@ -59,8 +59,17 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 𝐇𝐄𝐘 𝐓𝐇𝐄𝐑𝐄! [🧑](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
+
+*𝐇𝐄𝐘! {},*
+
 *𝐈 𝐀𝐌 𝐀 𝐁𝐄𝐘𝐁𝐋𝐀𝐃𝐄 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.
+
 𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 𝐏𝐈𝐆𝐀𝐒𝐔𝐒 𝐔𝐏𝐃𝐀𝐓𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
+
+┏━━━━━━━━━━━━━━━━
+┣ ₪ *Uptime:* `{}`
+┣ ₪ `{}` *users, across* `{}` *chats.*
+┗━━━━━━━━━━━━━━━━━
 
 𝐉𝐎𝐈𝐍 @𝐏𝐈𝐆𝐀𝐒𝐔𝐒𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐀𝐍𝐃 @𝐏𝐈𝐆𝐀𝐒𝐔𝐒𝐒𝐔𝐏𝐏𝐎𝐑𝐓*
 """
@@ -82,7 +91,7 @@ buttons = [
         ),
       
         InlineKeyboardButton(
-          text="★ Source ★", url="source_back"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="http://t.me/FreeDeLaHoyarobot"
         ),
     ],
          
@@ -102,7 +111,9 @@ buttons = [
 
 HELP_STRINGS = """
 Hey there! My name is [𝐕𝐀𝐋𝐓 𝐀𝐎𝐈!](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
+
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! 
+
 \n Have a look at the following for an idea of some of the things I can help you with."""
 
 DONATE_STRING = """
@@ -216,6 +227,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
+                    escape_markdown(context.bot.first_name),
                     escape_markdown(first_name),
                     escape_markdown(uptime),
                     sql.num_users(),
@@ -236,7 +248,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PegasusSupportOfficial")
                   ],
                   [
-                  InlineKeyboardButton(text="【 Source 】", url="https://github.com/ValtAoiTheBot/Valt_Aoi")
+                  InlineKeyboardButton(text="【 Source 】", url="https://github.com/ValtAoiTheBot/ValtAoiTheBot")
                   ],
                   [
                   InlineKeyboardButton(text="【 ✗𝚅𝙰𝙻𝚃 𝙰𝙾𝙸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃✗ 】", url="https://t.me/Valtaoithebothero")
@@ -407,7 +419,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi. 🧑I'm *VALT AOI*
-                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/ValtAoiTheBot/Valt_Aoi""",
+                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/Rohithbotusers/Valt-Aoi""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
