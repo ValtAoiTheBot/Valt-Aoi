@@ -16,6 +16,7 @@
 
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# @VALTAOITHEBOT Dont remove this
 
 
 import logging
@@ -211,5 +212,7 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
  - /fsub disable - To turn of ForceSubscribe..
     If you disable fsub, you need to set again for working.. /fsub {channel username} 
  - /fsub clear - To unmute all members who muted by me.
+
+@VALTAOITHEBOT
 """
 __mod_name__ = "Force Subscribe"
