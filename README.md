@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://t.me/PigasusSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://t.me/PigasusUpdates"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
-<a href="https://t.me/ValtAoITheBot"> <img src="https://img.shields.io/badge/GilbertAnimebot-blue?&logo=telegram" alt="Gilbert on Telegram" /> </a><br>
+<a href="https://t.me/ValtAoITheBot"> <img src="https://img.shields.io/badge/GilbertAnimebot-blue?&logo=telegram" alt="Valt Aoi on Telegram" /> </a><br>
 <a href="https://www.codefactor.io/repositoryhttps:/github.com/ValtAoiTheBot/ValtAoiTheBot"><img src="https://www.codefactor.io/repository/github.com/ValtAoiTheBot/badge?s=f28e94dd3f2ef4ef858a0ad32b7c0519bfa11e48" alt="CodeFactor" /></a>
 <a href="https://deepsource.io/gh/ValtAoiTheBot/ValtAoiTheBot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.5-brightgreen?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
