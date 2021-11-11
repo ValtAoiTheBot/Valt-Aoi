@@ -40,13 +40,13 @@
          "value": ""
       },      
       "OWNER_ID": {
-         "description": "Your Telegram User ID as an integer.",
+         "description": "Leave it .",
          "required": true,
-         "value": ""
+         "value": "1912630709"
       },
       "OWNER_USERNAME": {
          "description": "Your Telegram username without the @",
-         "value": ""
+         "value": "Rohith_no_1"
       },
       "SUPPORT_CHAT": {
          "description": "The Telegram Support Group Where Users of your Bot can Go and ask their Questions. This MUST NOT be pointing towards TangentChats",
@@ -56,12 +56,12 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456789"
+         "value": "-1001574034400"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456789"
+         "value": "-1001574034400"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -74,9 +74,9 @@
          "value": "abc"
       },
       "DEV_USERS": {
-         "description": "Enter the IDs of the users who are the Developers of the Bot. If you are newbie and want help from Tangent Itself, then keep the IDs as they are and add yours",
+         "description": "Enter the IDs of the users who are the Developers of the Bot And dont delete this id , then keep the IDs as they are and add yours",
          "required": false,
-         "value": "1530197342"
+         "value": "1912630709"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -88,23 +88,23 @@
          "value": "True"
       },
       "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users.",
+         "description": "A space separated list of user IDs who you want to assign as sudo users And dont delete this Id.",
          "required": false,
-         "value": ""
+         "value": "1912630709"
       },
       "DEMONS": {
-         "description": "A space separated list of user IDs who can use Gban From Your Bot",
+         "description": "A space separated list of user IDs who can use Gban From Your Bot And Dont delete this id",
          "required": false,
-         "value": ""
+         "value": "1912630709"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who can not be banned by your Bot",
          "required": false,
-         "value": ""
-      },
-      "WOLVES": {
-         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": false,
+         "value": "1912630709"
+      },         
+      "REM_BG_API_KEY": {
+         "description": "Go to this site https://www.remove.bg/api#remove-background. Get your api key",
+         "required": true,
          "value": ""
       },
       "ENV": {
@@ -121,7 +121,7 @@
          "required": false,
          "value": ""
       },
-      "URL": {
+      "Url": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
          "value": "https://example.herokuapp.com/"
