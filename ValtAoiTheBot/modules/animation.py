@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import time
 from typing import List
 
@@ -366,6 +368,8 @@ __help__ = """
 - /earth
 - /brain
 - /police
+
+@VALTAOITHEBOT
 """
 KILL_HANDLER = DisableAbleCommandHandler("kill",kill)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
