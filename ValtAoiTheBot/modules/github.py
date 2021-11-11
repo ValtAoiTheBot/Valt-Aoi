@@ -1,4 +1,6 @@
 # © @Mr_Dark_Prince
+# @VALTAOITHEBOT Dont remove this
+
 import aiohttp
 from pyrogram import filters
 from ValtAoiTheBot import pbot
@@ -10,6 +12,8 @@ __mod_name__ = "Gɪᴛʜᴜʙ❄️"
 __help__ = """
 I will give information about github profile 
  ❍ /github <username>*:* Get information about a GitHub user.
+
+@VALTAOITHEBOT
 """
 
 @pbot.on_message(filters.command('github'))
