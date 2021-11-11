@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 import re
 import os
@@ -511,7 +513,9 @@ Examples:
  • `/info`*:* get information about a user. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/PigasusUpdates) 
+ Come and see [HP System explained](https://t.me/PegasusUpdates) 
+
+@VALTAOITHEbOT
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
