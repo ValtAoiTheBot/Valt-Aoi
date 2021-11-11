@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from mtranslate import translate
 from ValtAoiTheBot import telethn
 import json
@@ -52,5 +54,7 @@ async def _(event):
 
 help = """
 - /tr [List of Language Codes](t.me/fateunionupdates/32) :- as reply to a long message.
+
+@VALTAOITHEBOT
 """
 __mod_name__= "Translator"
