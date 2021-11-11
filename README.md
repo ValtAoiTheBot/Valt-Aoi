@@ -25,7 +25,7 @@
 
 
 
-The Support group can be reached out to at [PIGASUS-SUPPORT](https://t.me/pigasusSupport), where you can ask for help about [Valt Aoi ](https://t.me/VALTAOITHEBOT), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+### The Support group can be reached out to at [PIGASUS-SUPPORT](https://t.me/pigasusSupport), where you can ask for help about [Valt Aoi ](https://t.me/VALTAOITHEBOT), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
@@ -80,13 +80,13 @@ Start with ```python -m ValtAoiTheBot```
 ## Credits
 
 - [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot) This Bot Based On Saitama And For Anime Modules.
-- [kurumi](https://github.com/Hirojazz/kurumi) For Some Modules 
+- [EmiliaAnimeBot](https://github.com/IzumiCypherX/EmiliaAnimeBot) For Some Modules 
 - [Dank-del](https://github.com/Dank-del/Chizuru/) for some modules.
 - [Hirojazz](https://github.com/Hirojazz) for Some modules.
 - [Paul Larsen](https://github.com/PaulSonOfLars) Real Work.
 - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor) For ImageEditor Module
 - [TroJanzHEX](https://github.com/TroJanzHEX) For ImageEditor Module
-- [TheHamkerCat](https://t.me/Freedelahoyarobot) For Inline Features
+- [Free de la hoya](https://t.me/Freedelahoyarobot) For Inline Features
 ## Warning⚠️
 
 ```
