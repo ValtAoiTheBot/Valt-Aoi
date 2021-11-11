@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 from ValtAoiTheBot.modules.disable import DisableAbleCommandHandler
 from ValtAoiTheBot import dispatcher, DRAGONS
@@ -207,6 +209,8 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 - `/unapprove`*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
 - `/approved`*:* List all approved users.
 - `/unapproveall`*:* Unapprove *ALL* users in a chat. This cannot be undone.
+
+@VALTAOITHEBOT
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve)
