@@ -2,6 +2,8 @@
 XIT License 2021
 Copyright (c) 2021 Dihan Official
 """
+# @VALTAOITHEBOT Dont remove this
+
 import asyncio
 import os
 import subprocess
