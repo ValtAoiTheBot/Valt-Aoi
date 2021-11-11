@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import wikipedia
 from ValtAoiTheBot import dispatcher
 from ValtAoiTheBot.modules.disable import DisableAbleCommandHandler
