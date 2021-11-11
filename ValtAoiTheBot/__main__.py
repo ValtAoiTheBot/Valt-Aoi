@@ -64,14 +64,14 @@ PM_START_TEXT = """
 
 *𝐈 𝐀𝐌 𝐀 𝐁𝐄𝐘𝐁𝐋𝐀𝐃𝐄 𝐓𝐇𝐄𝐌𝐄𝐃 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐌𝐄𝐍𝐓 𝐁𝐎𝐓.
 
-𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 𝐏𝐈𝐆𝐀𝐒𝐔𝐒 𝐔𝐏𝐃𝐀𝐓𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
+𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 (𝓣𝓐𝓜𝓘𝓛𝓑𝓛𝓐𝓢𝓣𝓔𝓡𝓩𝓩𝓩𝓩)[https://t.me/tamilblasterzzzz] 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌 𝐆𝐑𝐎𝐔𝐏
 
 ┏━━━━━━━━━━━━━━━━
 ┣ ₪ *Uptime:* `{}`
 ┣ ₪ `{}` *users, across* `{}` *chats.*
 ┗━━━━━━━━━━━━━━━━━
 
-𝐉𝐎𝐈𝐍 @𝐏𝐈𝐆𝐀𝐒𝐔𝐒𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐀𝐍𝐃 @𝐏𝐈𝐆𝐀𝐒𝐔𝐒𝐒𝐔𝐏𝐏𝐎𝐑𝐓*
+𝐉𝐎𝐈𝐍 (𝓣𝓐𝓜𝓘𝓛𝓑𝓛𝓐𝓢𝓣𝓔𝓡𝓩𝓩𝓩𝓩)[https://t.me/tamilblasterzzzz] 𝐀𝐍𝐃 (∂ιѕєиу мσνιєѕ ∂ιѕ¢υѕѕισи)[https://t.me/DMT_Movies_Discussion]*
 """
 
 buttons = [
@@ -87,22 +87,22 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="༄ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ༄", url="https://t.me/PegasusUpdates"
+          text="༄ 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ༄", url="https://t.me/tamilblasterzzzz"
         ),
       
         InlineKeyboardButton(
-          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="http://t.me/FreeDeLaHoyarobot"
+          text="★ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 ★", url="http://t.me/RexForce2Subs_bot"
         ),
     ],
          
     [
        InlineKeyboardButton(
-           text="✫ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃 ✫", url="https://t.me/PegasusSupportOfficial"
+           text="✫ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝚃 ✫", url="https://t.me/https://t.me/DMT_Movies_Discussion"
          ),
     ],
     [
        InlineKeyboardButton(
-           text="彡 𝚅𝙰𝙻𝚃 𝙰𝙾𝙸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 彡", url="https://t.me/Valtaoithebothero"
+           text="彡 🆂🅷🅰🆁🅴 🆄🆂 彡", url="https://telegram.me/share/url?url=https://t.me/tamilblasterzzzz"
         ),
      
     ],
@@ -118,7 +118,7 @@ I'm a Half Elf and help admins manage their groups with Some Powerful Features!
 
 DONATE_STRING = """
 Heya, glad to hear you want to donate!
-I'd Like you to Donate that Money to my owner ‣ @ROHITH_NO_1. 
+I'd Like you to Donate that Money to my owner ‣ @DareAbijth. 
 Thanks!
 """
 
@@ -244,13 +244,13 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PegasusSupportOfficial")
+                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/DMT_Movies_Discussion")
                   ],
                   [
-                  InlineKeyboardButton(text="【 Source 】", url="https://github.com/ValtAoiTheBot/ValtAoiTheBot")
+                  InlineKeyboardButton(text="【 Source 】", url="https://telegra.ph/file/665379ab487d4125b8afb.jpg")
                   ],
                   [
-                  InlineKeyboardButton(text="【 ✗𝚅𝙰𝙻𝚃 𝙰𝙾𝙸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃✗ 】", url="https://t.me/Valtaoithebothero")
+                  InlineKeyboardButton(text="【 ✗𝚅𝙰𝙻𝚃 𝙰𝙾𝙸 𝚂𝚄𝙿𝙿𝙾𝚁𝚃✗ 】", url="https://t.me/DMT_Movies_Discussion")
                   ]
                 ]
             ),
@@ -418,7 +418,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi. 🧑I'm *VALT AOI*
-                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/Rohithbotusers/Valt-Aoi""",
+                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/DareAbijth/Valt-Aoi""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -492,7 +492,7 @@ def get_help(update: Update, context: CallbackContext):
             InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="help_back"),
                                 InlineKeyboardButton(
-                                    text="Support", url="https://telegram.dog/TangentChats"
+                                    text="Support", url="https://telegram.dog/DMT_Movies_Discussion"
                                 )]]
             ),
         )
