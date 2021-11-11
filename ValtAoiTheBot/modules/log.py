@@ -23,3 +23,4 @@ def logs(update: Update, context: CallbackContext):
 LOG_HANDLER = CommandHandler('logs', logs)
 
 dispatcher.add_handler(LOG_HANDLER)
+                   
