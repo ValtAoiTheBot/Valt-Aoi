@@ -19,157 +19,141 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
-
+import wget
+import time
+import yt_dlp
+import asyncio
+import aiohttp
 import requests
+
 from pyrogram import filters
+from pyrogram.types import Message
+from Cutiepii_Robot import pgram, BOT_USERNAME
+from Cutiepii_Robot.utils.pluginhelp import get_text, progress
+from youtube_search import YoutubeSearch
+from youtubesearchpython import SearchVideos
 
-from ValtAoiTheBot import pbot as Dihan
-from ValtAoiTheBot.pyrogramee.dark import get_arg
 
 
-@Dihan.on_message(filters.command("saavn"))
-async def song(client, message):
-    message.chat.id
-    message.from_user["id"]
-    args = get_arg(message) + " " + "song"
-    if args.startswith(" "):
-        await message.reply("Enter song name.")
-        return ""
-    m = await message.reply_text(
-        "Downloading.."
+def time_to_seconds(time):
+    stringt = str(time)
+    return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
+
+@pgram.on_message(filters.command(["vsong", "video"]))
+async def ytmusic(client, message: Message):
+    urlissed = get_text(message)
+    pablo = await client.send_message(
+        message.chat.id, f"Name ➛ {urlissed} 🔎 Finding the song..."
     )
+    if not urlissed:
+        await pablo.edit("Invalid Command Syntax")
+        return
+    search = SearchVideos(f"{urlissed}", offset=1, mode="dict", max_results=1)
+    mi = search.result()
+    mio = mi["search_result"]
+    mo = mio[0]["link"]
+    thum = mio[0]["title"]
+    fridayz = mio[0]["id"]
+    thums = mio[0]["channel"]
+    kekme = f"https://img.youtube.com/vi/{fridayz}/hqdefault.jpg"
+    await asyncio.sleep(0.6)
+    url = mo
+    sedlyf = wget.download(kekme)
+    opts = {
+
+        "format": "best",
+        "addmetadata": True,
+        "key": "FFmpegMetadata",
+        "prefer_ffmpeg": True,
+        "geo_bypass": True,
+        "nocheckcertificate": True,
+        "postprocessors": [{"key": "FFmpegVideoConvertor", "preferedformat": "mp4"}],
+        "outtmpl": "%(id)s.mp4",
+        "logtostderr": False,
+        "quiet": True,
+    }
     try:
-        r = requests.get(f"https://jostapi.herokuapp.com/saavn?query={args}")
+        with yt_dlp.YoutubeDL(opts) as ytdl:
+            ytdl_data = ytdl.extract_info(url, download=True)
     except Exception as e:
-        await m.edit(str(e))
+        await event.edit(event, f"**Failed To Download** \n**Error :** `{str(e)}`")
         return
-    sname = r.json()[0]["song"]
-    slink = r.json()[0]["media_url"]
-    ssingers = r.json()[0]["singers"]
-    file = wget.download(slink)
-    ffile = file.replace("mp4", "m4a")
-    os.rename(file, ffile)
-    await message.reply_audio(audio=ffile, title=sname, performer=ssingers)
-    os.remove(ffile)
-    await m.delete()
+    c_time = time.time()
+    file_stark = f"{ytdl_data['id']}.mp4"
+    capy = f"**Video Name ➠** `{thum}` \n**Requested For :** `{urlissed}` \n**Channel :** `{thums}`\n\nBy @{BOT_USERNAME}"
+    await client.send_video(
+        message.chat.id,
+        video=open(file_stark, "rb"),
+        duration=int(ytdl_data["duration"]),
+        file_name=str(ytdl_data["title"]),
+        thumb=sedlyf,
+        caption=capy,
+        supports_streaming=True,
+        progress=progress,
+        progress_args=(
+            pablo,
+            c_time,
+            f"`Uploading {urlissed} Song From YouTube Music!`",
+            file_stark,
+        ),
+    )
+    await pablo.delete()
+    for files in (sedlyf, file_stark):
+        if files and os.path.exists(files):
+            os.remove(files)
 
 
-#deezer#
-# Credits for @TheHamkerCat
+@pgram.on_message(filters.command(["song", f"song@{BOT_USERNAME}"]))
+def song(client, message):
 
-import os
-import aiofiles
-import aiohttp
-from pyrogram import filters
-from ValtAoiTheBot import pbot as ValtAoi
+    user_id = message.from_user.id
+    user_name = message.from_user.first_name
+    rpk = "["+user_name+"](tg://user?id="+str(user_id)+")"
 
-ARQ = "https://thearq.tech/"
-
-async def fetch(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as resp:
-            try:
-                data = await resp.json()
-            except:
-                data = await resp.text()
-    return data
-
-async def download_song(url):
-    song_name = f"ValtAoI.mp3"
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as resp:
-            if resp.status == 200:
-                f = await aiofiles.open(song_name, mode="wb")
-                await f.write(await resp.read())
-                await f.close()
-    return song_name
-
-
-@ValtAoi.on_message(filters.command("deezer"))
-async def deezer(_, message):
-    if len(message.command) < 2:
-        await message.reply_text("Download Now Deezer")
-        return
-    text = message.text.split(None, 1)[1]
-    query = text.replace(" ", "%20")
-    m = await message.reply_text("Searching...")
+    query = ''.join(' ' + str(i) for i in message.command[1:])
+    print(query)
+    m = message.reply('🔎 Finding the song...')
+    ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
-        r = await fetch(f"{ARQ}deezer?query={query}&count=1")
-        title = r[0]["title"]
-        url = r[0]["url"]
-        artist = r[0]["artist"]
+        results = YoutubeSearch(query, max_results=1).to_dict()
+        link = f"https://youtube.com{results[0]['url_suffix']}"
+        #print(results)
+        title = results[0]["title"][:40]       
+        thumbnail = results[0]["thumbnails"][0]
+        thumb_name = f'thumb{title}.jpg'
+        thumb = requests.get(thumbnail, allow_redirects=True)
+        open(thumb_name, 'wb').write(thumb.content)
+
+
+        duration = results[0]["duration"]
+        url_suffix = results[0]["url_suffix"]
+        views = results[0]["views"]
+
     except Exception as e:
-        await m.edit(str(e))
+        m.edit(
+            "✖️ Found Nothing. Sorry.\n\nTry another keywork or maybe spell it properly."
+        )
+        print(str(e))
         return
-    await m.edit("Downloading...")
-    song = await download_song(url)
-    await m.edit("Uploading...")
-    await message.reply_audio(audio=song, title=title, performer=artist)
-    os.remove(song)
-    await m.delete()
-
-#Deezer
-# Credits for @TheHamkerCat
-
-import os
-import aiofiles
-import aiohttp
-from pyrogram import filters
-from ValtAoiTheBot import pbot as CHABEE
-
-ARQ = "https://thearq.tech/"
-
-async def fetch(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as resp:
-            try:
-                data = await resp.json()
-            except:
-                data = await resp.text()
-    return data
-
-async def download_song(url):
-    song_name = f"Chabee.mp3"
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as resp:
-            if resp.status == 200:
-                f = await aiofiles.open(song_name, mode="wb")
-                await f.write(await resp.read())
-                await f.close()
-    return song_name
-
-
-@CHABEE.on_message(filters.command("deezer"))
-async def deezer(_, message):
-    if len(message.command) < 2:
-        await message.reply_text("Download Now Deezer")
-        return
-    text = message.text.split(None, 1)[1]
-    query = text.replace(" ", "%20")
-    m = await message.reply_text("Searching...")
+    m.edit("`Downloading Song... Please wait ⏱`")
     try:
-        r = await fetch(f"{ARQ}deezer?query={query}&count=1")
-        title = r[0]["title"]
-        url = r[0]["url"]
-        artist = r[0]["artist"]
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info_dict = ydl.extract_info(link, download=False)
+            audio_file = ydl.prepare_filename(info_dict)
+            ydl.process_info(info_dict)
+        rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: YouTube\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @{BOT_USERNAME}'
+        secmul, dur, dur_arr = 1, 0, duration.split(':')
+        for i in range(len(dur_arr)-1, -1, -1):
+            dur += (int(dur_arr[i]) * secmul)
+            secmul *= 60
+        message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
+        m.delete()
     except Exception as e:
-        await m.edit(str(e))
-        return
-    await m.edit("Downloading...")
-    song = await download_song(url)
-    await m.edit("Uploading...")
-    await message.reply_audio(audio=song, title=title, performer=artist)
-    os.remove(song)
-    await m.delete()
-    
-    
-__mod_name__ = "Music"
+        m.edit('❌ Error')
+        print(e)
 
-__help__ = """
-• `/song`** <songname artist(optional)>: download the song in it's best quality available.(API BASED)
-• `/video`** <songname artist(optional)>: download the video song in it's best quality available.
-• `/deezer`** <songname>: download from deezer
-• `/lyrics`** <songname artist(optional)>: sends the complete lyrics of the song provided as input
-• `/glyrics`** <i> song name </i> : This plugin searches for song lyrics with song name and artist.
-@SophiaSLBot 
-"""
+    try:
+        os.remove(audio_file)
+        os.remove(thumb_name)
+    except Exception as e:
+        print(e)
