@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import asyncio
 import math
 import os
