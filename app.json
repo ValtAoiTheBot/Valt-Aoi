@@ -1,10 +1,10 @@
 {
       "name": "Valt Aoi",
-      "description": "group management robot.",
-      "logo": "https://telegra.ph/file/a67c2340316ee08944927.jpg", 
+      "description": "An Beyblade themed Telegram group management bot.",
+      "logo": "https://telegra.ph/file/7707aeb9aba6e789d8c69.jpg", 
       "keywords": [
          "telegram",
-         "anime",
+         "Beyblade",
          "group",
          "manager",
          "Valt"
@@ -40,16 +40,29 @@
          "value": ""
       },      
       "OWNER_ID": {
-         "description": "Leave it .",
+         "description": "Leave it dont change.",
          "required": true,
          "value": "1912630709"
       },
+      "BOT_ID": {
+         "description": "Your bot ID.. Use any other bot to get it.",
+         "required": true,
+         "value": ""
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "value": ""
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+        "required": false
+      },
       "OWNER_USERNAME": {
-         "description": "Your Telegram username without the @",
-         "value": "Rohith_no_1"
+         "description": "Leave it dont change ",
+         "value": "@Rohith_no_1"
       },
       "SUPPORT_CHAT": {
-         "description": "The Telegram Support Group Where Users of your Bot can Go and ask their Questions. This MUST NOT be pointing towards TangentChats",
+         "description": "Put your dupport group username without @",
          "required": true,
          "value": "SupportGroupName"
       },
@@ -74,7 +87,7 @@
          "value": "abc"
       },
       "DEV_USERS": {
-         "description": "Enter the IDs of the users who are the Developers of the Bot And dont delete this id , then keep the IDs as they are and add yours",
+         "description": "Dont change this leave it",
          "required": false,
          "value": "1912630709"
       },
@@ -88,23 +101,23 @@
          "value": "True"
       },
       "DRAGONS": {
-         "description": "A space separated list of user IDs who you want to assign as sudo users And dont delete this Id.",
+         "description": "A space separated list of user IDs who you want to assign as sudo usersand dont change this id ",
          "required": false,
          "value": "1912630709"
       },
       "DEMONS": {
-         "description": "A space separated list of user IDs who can use Gban From Your Bot And Dont delete this id",
+         "description": "A space separated list of user IDs who can use Gban From Your Bot and Dont change this id",
          "required": false,
          "value": "1912630709"
       },
       "TIGERS": {
-         "description": "A space separated list of user IDs who can not be banned by your Bot",
+         "description": "A space separated list of user IDs who can not be banned by your Bot and dont change this id",
          "required": false,
          "value": "1912630709"
-      },         
-      "REM_BG_API_KEY": {
-         "description": "Go to this site https://www.remove.bg/api#remove-background. Get your api key",
-         "required": true,
+      },
+      "WOLVES": {
+         "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
+         "required": false,
          "value": ""
       },
       "ENV": {
@@ -121,7 +134,7 @@
          "required": false,
          "value": ""
       },
-      "Url": {
+      "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
          "value": "https://example.herokuapp.com/"
@@ -143,17 +156,12 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "t.me/Rohith_no_1"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "True"
       },
-      "AI_API_KEY": {
-      "description": "Make your bot talk using Intellivoid's chatbot API, No Need of This",
-         "required": false,
-         "value": ""
-      },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people. Keep this Empty",
          "required": false,
@@ -164,20 +172,27 @@
          "required": true,
          "value": ""
       },
-      "HEROKU_API_KEY": {
-         "description": "Your get from"'https://dashboard.heroku.com/account',
-         "required": true,
-         "value": ""
-       },
-      "HEROKU_APP_NAME": {
-         "Enter the Heroku app name here (Must an exact same name with your input above).",
-         "required": true,
-         "value": ""
-       },
       "ARQ_API_KEY": {
          "description": "Get one @ARQRobot on Telegram",
          "required": true,
          "value": ""
+      },
+      "LOG_GROUP_ID": {
+         "description": "The ID of the Group where the bot will spam with shitty errors and techy stuff",
+         "required": true,
+         "value": ""
+      },
+      "WALL_API": {
+         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+         "required": false,
+         "value": ""
+      },             
+      "REM_BG_API_KEY": {
+         "description": "",
+         "required": false,
+         "value": ""
       }
+
+
    }
 }
