@@ -45,7 +45,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 	
   <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/ValtAoiTheBot/ValtAoiTheBot">
+        <a href="https://heroku.com/deploy?template=https://github.com/ValtAoiTheBot/Valt_Aoi">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
@@ -63,14 +63,14 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 <h2>
 
 ```console
-    IzumiCypherx@arch:~$ git clone https://github.com/IzumiCypherX/EmiliaAnimeBot
-    IzumiCypherx@arch:~$ cd EmiliaAnimeBot
-    IzumiCypherx@arch:~$ cp sample_config.py config.py
+    ValtAoi@arch:~$ git clone https://github.com/https://github.com/ValtAoiTheBot/Valt_Aoi
+    ValtAoi@arch:~$ cd ValtAoiTheBot
+    ValtAoi@arch:~$ cp sample_config.py config.py
 ```
 
 Edit Config.py with your own Values
 
-Start with ```python -m EmiliaAnimeBot```
+Start with ```python -m ValtAoiTheBot```
 
 </details>    
 
