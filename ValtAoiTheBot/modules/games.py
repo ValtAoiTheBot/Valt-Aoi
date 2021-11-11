@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from telethon.tl.types import InputMediaDice
 
 from ValtAoiTheBot.events import register
@@ -74,6 +76,8 @@ __help__ = """
  *Truth And Dare:*
   - /Truth : for random truth.
   - /dare : for random dare.
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Game"
