@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 import random
 import re
@@ -1026,6 +1028,8 @@ user joined chat, user left chat.
 
 *Welcome markdown:* 
  • `/welcomehelp`*:* view more formatting information for custom welcome/goodbye messages.
+
+@VALTAOITHEBOT
 """
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members,
