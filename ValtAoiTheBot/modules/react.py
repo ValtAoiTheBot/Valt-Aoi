@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import random
 
 from ValtAoiTheBot import dispatcher
