@@ -1,5 +1,6 @@
 # credits  @chsaiujwal @daisyxrobot
 # ported to masha @Mr_Dark_Prince
+# @VALTAOITHEBOT Dont remove this
 
 import urllib.request
 
@@ -47,6 +48,8 @@ async def _(event):
 __help__ = """
 *live cricket score*
  ❍ /cs*:* Latest live scores from cricinfo
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Cʀɪᴄᴋᴇᴛ🏏"
