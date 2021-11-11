@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 
 from ValtAoiTheBot import (LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher)
@@ -272,6 +274,8 @@ __help__ = """
  • `/reports <on/off>`*:* change report setting, or view current status.
    • If done in pm, toggles your status.
    • If in group, toggles that groups's status.
+
+@VALTAOITHEBOT
 """
 
 SETTING_HANDLER = CommandHandler("reports", report_setting)
