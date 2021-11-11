@@ -26,7 +26,7 @@
 > Or Give in PM_START Check my friend As ValtAoiTheBot 
 
 
-### Can be found on telegram as [Valt Aoi ](https://t.me/VALTAOITHEBOT).
+### Can be found on telegram as [Valt Aoi ](https://telegram.dog/VALTAOITHEBOT).
 
 ### Status
 
