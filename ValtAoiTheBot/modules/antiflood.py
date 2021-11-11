@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 from typing import Optional, List
 
@@ -360,6 +362,8 @@ will result in restricting that user.
  `6h` = 6 hours
  `3d` = 3 days
  `1w` = 1 week
+
+@VALTAOITHEBOT
  """
 
 __mod_name__ = "Anti-Flood"
