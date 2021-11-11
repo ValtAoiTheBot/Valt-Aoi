@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 import random
 import time
@@ -242,7 +244,9 @@ __help__ = """
  • `/decide`*:* Randomly answers yes/no/maybe/idk
  • `/toss`*:* Tosses A coin
  • `/roll`*:* Roll a dice & get you a number
- • `/senpai`*:* call Yumeko senpai to help you 
+ • `/senpai`*:* call Yumeko senpai to help you
+
+@VALTAOITHEBOT 
 """
 
 INSULT_HANDLER = DisableAbleCommandHandler("insult", insult)
