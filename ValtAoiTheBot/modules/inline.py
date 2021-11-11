@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import datetime
 import re
 import time
