@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot import pbot as app
 from ValtAoiTheBot.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
@@ -78,5 +80,7 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
 
 __help__ = """
  ❍ /couples - To Choose Couple Of The Day
+
+@VALTAOITHEBOT
  """
 __mod_name__ = "Cᴏᴜᴘʟᴇs😘"
