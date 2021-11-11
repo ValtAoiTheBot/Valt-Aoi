@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 from typing import Optional
 
@@ -474,6 +476,8 @@ Admins only:
  • `/blstickermode <ban/tban/mute/tmute>`*:* sets up a default action on what to do if users use blacklisted stickers. (`tmute seems broken right now`)
 Note:
  • `<sticker link>` can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message.
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Blacklists stickerss"
