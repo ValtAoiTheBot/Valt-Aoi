@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from datetime import datetime
 from functools import wraps
 
@@ -195,6 +197,8 @@ Setting the log channel is done by:
 • adding the bot to the desired channel (as an admin!)
 • sending `/setlog` in the channel
 • forwarding the `/setlog` to the group
+
+@VALTAOITHEBOT
 """
 
     __mod_name__ = "Log Channels"
