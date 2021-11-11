@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from random import randint
 
 import requests as r
