@@ -20,11 +20,6 @@
 
 
 
-# Mainly Note if you not put any cridits to The bot PM_START and modules you are the Mother Dicker
-
-> Or Give in PM_START Check my friend As ValtAoiTheBot 
-
-
 ### Can be found on telegram as [Valt Aoi ](https://telegram.dog/VALTAOITHEBOT).
 
 
@@ -97,4 +92,6 @@ Start with ```python -m ValtAoiTheBot```
 ```
 Fork At Your Own Risk 😸
 Must Add The Orginal Repo Link On PM_START Else Gban And U Proving You itself Gay
+Mainly Note if you not put any cridits to The bot PM_START and modules you are the Mother Dicker
+And we will gban you
 ```
