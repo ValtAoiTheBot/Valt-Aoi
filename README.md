@@ -21,7 +21,7 @@
 
 
 
-# Mainly Note if you not put any cridits to The botand modules you are the Mother Dicker
+# Mainly Note if you not put any cridits to The bot PM_START and modules you are the Mother Dicker
 
 
 
