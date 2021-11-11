@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot import telethn as tbot
 import os
 from ValtAoiTheBot.events import register
@@ -31,4 +33,6 @@ __mod_name__ = "Text Hide"
 __help__ = """
  •`/encrypt`*:* Encrypts The Given Text
  •`/decrypt`*:* Decrypts Previously Ecrypted Text
+
+@VALTAOITHEBOT
 """
