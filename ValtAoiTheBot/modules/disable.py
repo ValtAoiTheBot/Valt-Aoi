@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import importlib
 from typing import Union
 
@@ -335,6 +337,8 @@ if is_module_loaded(FILENAME):
     • `/enablemodule <module name>`*:* enable all commands in that module
     • `/disablemodule <module name>`*:* disable all commands in that module
     • `/listcmds`*:* list all possible toggleable commands
+
+   @VALTAOITHEBOT
     """
 
     __mod_name__ = "Disabling"
