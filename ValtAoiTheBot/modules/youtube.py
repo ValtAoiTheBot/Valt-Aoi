@@ -1,70 +1,31 @@
-import logging
+import os
+from pyrogram import Client, filters
+from pyrogram.types import *
 
-from pyrogram.types import Message
-from search_engine_parser import GoogleSearch
-from youtube_search import YoutubeSearch
+from ValtAoiTheBot.conf import get_str_key
+from ValtAoiTheBot import pbot
 
-from pyrogram import Client as app, filters
-
-logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
-
-import pyrogram
-
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
-
-@app.on_message(pyrogram.filters.command("yts"))
-async def ytsearch(_, message: Message):
-    try:
-        if len(message.command) < 2:
-            await message.reply_text("/yts `YouTube Video Name`")
-            return
-        query = message.text.split(None, 1)[1]
-        m = await message.reply_text("Searching....")
-        results = YoutubeSearch(query, max_results=6).to_dict()
-        i = 0
-        text = ""
-        while i < 6:
-            text += f"Title 🎩 - {results[i]['title']}\n"
-            text += f"Duration 🕔 - {results[i]['duration']}\n"
-            text += f"Views 👀 - {results[i]['views']}\n"
-            text += f"Channel 📺 - {results[i]['channel']}\n"
-            text += f"https://youtube.com{results[i]['url_suffix']}\n\n"
-            i += 1
-        await m.edit(text, disable_web_page_preview=True)
-    except Exception as e:
-        await message.reply_text(str(e))
-        
-@app.on_message(pyrogram.filters.command(["ytsearch"]))
-async def ytsearch(_, message: Message):
-    try:
-        if len(message.command) < 2:
-            await message.reply_text("/ytsearch `YouTube Video Name`")
-            return
-        query = message.text.split(None, 1)[1]
-        m = await message.reply_text("Searching....")
-        results = YoutubeSearch(query, max_results=8).to_dict()
-        i = 0
-        text = ""
-        while i < 8:
-            text += f"Title 🎩 - {results[i]['title']}\n"
-            text += f"Duration 🕔 - {results[i]['duration']}\n"
-            text += f"Views 👀 - {results[i]['views']}\n"
-            text += f"Channel 📺 - {results[i]['channel']}\n"
-            text += f"https://youtube.com{results[i]['url_suffix']}\n\n"
-            i += 1
-        await m.edit(text, disable_web_page_preview=True)
-    except Exception as e:
-        await message.reply_text(str(e))    
-        
+REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/980cd3c855f8e7c0bcdc9.jpg) to Make Your Groups Secured and Organized ! My friend : 『 [Free De la hoya](t.me/FreedelahoyaRobot) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @Pegasusupdates «««"
   
-
-__mod_name__ = "YT"
-
-__help__ = """
-=>> *Youtube Video Searching *
- - /yts `Video name` :  To Search In Youtube Until Max Result Is 4
- - /ytsesrch `Video name` :  To Search In Youtube Until Max Result Is 8
-"""       
+BUTTONS = InlineKeyboardMarkup(
+      [[
+        InlineKeyboardButton("ʀᴇᴘᴏꜱɪᴛᴏʀʏ", url=f"https://github.com/ValtAoiTheBot/ValtAoiTheBot"),
+        InlineKeyboardButton(" ᴊᴏɪɴ ", url=f"https://t.me/ValtAoitheBotHero"),
+      ],[
+        InlineKeyboardButton(" Pegasus Network ", url="https://t.me/PegasusXteam"),
+        InlineKeyboardButton("Pegasus Support ", url="https://t.me/pegasussupportofficial"),
+      ],[
+        InlineKeyboardButton(" Pegasus Updates ", url="https://t.me/Pegasusupdates"),
+        InlineKeyboardButton(" My friend ", url="https://t.me/FreedelahoyaRobot"),
+      ]]
+    )
+  
+  
+@pbot.on_message(filters.command(["repo"]))
+async def repo(pbot, update):
+    await update.reply_text(
+        text=REPO_TEXT,
+        reply_markup=BUTTONS,
+        disable_web_page_preview=True,
+        quote=True
+    )
