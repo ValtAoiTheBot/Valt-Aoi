@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import requests
 from ValtAoiTheBot import CASH_API_KEY, dispatcher
 from telegram import Update, ParseMode
