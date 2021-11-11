@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from pyrogram import filters
 from pyrogram.types import (
     CallbackQuery,
