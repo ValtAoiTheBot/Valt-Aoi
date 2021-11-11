@@ -1,3 +1,4 @@
+# @VALTAOITHEBOT Dont remove this
 
 from time import sleep
 from typing import Optional, List
@@ -59,6 +60,8 @@ Ban all members from a chat
 ──「 *Sudo only:* 」──
 -> /snipe <chatid> <string>
 Make me send a message to a specific chat.
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Special"
