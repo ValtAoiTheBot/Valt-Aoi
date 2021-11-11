@@ -1,5 +1,5 @@
 ![Valt Aoi](https://telegra.ph/file/a67c2340316ee08944927.jpg)
-# Valt Aoi robot
+# Valt Aoi 
 <p align="center">
 <a href="https://telegram.dog/PigasusSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://telegram.dog/PigasusUpdates"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
@@ -21,7 +21,7 @@
 
 
 
-> Mainly Note if you not put any cridits to The botand modules you are the Mother Dicker
+# Mainly Note if you not put any cridits to The botand modules you are the Mother Dicker
 
 
 
