@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from time import sleep
 from typing import Optional, List
 from telegram import TelegramError
@@ -39,6 +41,8 @@ __help__ = """
 ──「 *Sudo only:* 」──
 -> /snipe <chatid> <string>
 Make me send a message to a specific chat.
+
+@VALTAOIHEBOT
 """
 
 __mod_name__ = "Snipe"
