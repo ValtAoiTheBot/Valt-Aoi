@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from io import BytesIO
 from time import sleep
 
