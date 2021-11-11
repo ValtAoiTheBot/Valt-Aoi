@@ -86,7 +86,7 @@ Start with ```python -m ValtAoiTheBot```
 - [Paul Larsen](https://github.com/PaulSonOfLars) Real Work.
 - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor) For ImageEditor Module
 - [TroJanzHEX](https://github.com/TroJanzHEX) For ImageEditor Module
-- [Free de la hoya](https://t.me/Freedelahoyarobot) For Inline Features
+- [Free de la hoya](https://telegram.dog/Freedelahoyarobot) For Inline Features
 ## Warning⚠️
 
 ```
