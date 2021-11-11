@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot.events import register
 from ValtAoiTheBot import OWNER_ID
 from ValtAoiTheBot import telethn as tbot
@@ -77,4 +79,6 @@ __mod_name__ = "Logos"
 
 __help__ = """
 `/logo`*:* Create a logo with text!
+
+@VALTAOITHEBOT
 """
