@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import asyncio, time, os, asyncio, json
 from telethon.tl.types import DocumentAttributeAudio
 from ValtAoiTheBot.events import register
@@ -239,6 +241,7 @@ __help__ = """
   name. *
  - `/video` <songname artist(optional)>: uploads the video song in it's best quality available
  - `/lyrics` <song>: returns the lyrics of that song.
+@VALTAOITHEBOT
 """
 
 __mod_name__ = " YT Video "
