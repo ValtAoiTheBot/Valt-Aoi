@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot import telethn as tbot
 import json
 import requests
@@ -87,6 +89,8 @@ __help__ = """
  ❍ /spell*:* while replying to a message, will reply with a grammar corrected version
  ❍ /synonyms <word>*:* Find the synonyms of a word
  ❍ /antonyms <word>*:* Find the antonyms of a word
+
+@VALTAOITHEBOT
 """
 
 __mod_name__= "ENGLISH"
