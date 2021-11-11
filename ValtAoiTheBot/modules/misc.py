@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot.modules.helper_funcs.chat_status import user_admin
 from ValtAoiTheBot.modules.disable import DisableAbleCommandHandler
 from ValtAoiTheBot import dispatcher
@@ -97,6 +99,8 @@ Example:
 Output: `1.0 USD = 75.505 INR`
 
 Reports bugs at @pigasussupport
+
+@VALTAOITHEBOT
 """
 
 ECHO_HANDLER = DisableAbleCommandHandler("echo", echo, filters=Filters.group)
