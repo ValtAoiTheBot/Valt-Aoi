@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 
 from telegram import ParseMode, Update
@@ -456,6 +458,8 @@ __help__ = """
  •  `/rmute user group`*:* Remote mute
  •  `/runmute user group`*:* Remote un-mute
  •  `/ginfo username/link/ID`*:* Pulls info panel for entire group
+
+@VALTAOITHEBOT
 
 """
 
