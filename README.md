@@ -42,8 +42,13 @@
 - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor) For ImageEditor Module
 - [TroJanzHEX](https://github.com/TroJanzHEX) For ImageEditor Module
 - [TheHamkerCat](https://t.me/TheHamkerCat) For Inline Features
-- Emilia
 ## Warning⚠️
+
+```
+Fork At Your Own Risk 😸
+Must Add The Orginal Repo Link On PM_START Else Gban And U Proving You itself Gay
+```
+
 
 
 
