@@ -1,47 +1,31 @@
 import os
-from ValtAoiTheBot import telethn as tbot
-from geopy.geocoders import Nominatim
-from ValtAoiTheBot.events import register
-from ValtAoiTheBot import *
-from telethon import *
-from telethon.tl import *
+from pyrogram import Client, filters
+from pyrogram.types import *
 
-GMAPS_LOC = "https://maps.googleapis.com/maps/api/geocode/json"
+from ValtAoiTheBot.conf import get_str_key
+from ValtAoiTheBot import pbot
 
-
-@register(pattern="^/gps (.*)")
-async def _(event):
-    args = event.pattern_match.group(1)
-
-    try:
-        geolocator = Nominatim(user_agent="SkittBot")
-        location = args
-        geoloc = geolocator.geocode(location)
-        longitude = geoloc.longitude
-        latitude = geoloc.latitude
-        gm = "https://www.google.com/maps/search/{},{}".format(latitude, longitude)
-        await tbot.send_file(
-            event.chat_id,
-            file=types.InputMediaGeoPoint(
-                types.InputGeoPoint(float(latitude), float(longitude))
-            ),
-        )
-        await event.reply(
-            "Open with: [🌏Google Maps]({})".format(gm),
-            link_preview=False,
-        )
-    except Exception as e:
-        print(e)
-        await event.reply("I can't find that")
-
-        
-        
-__help__ = """
- *See A Place's Map With The Help Of Google Map:*
-  - /gps Chennai
-  - /gps New York
- Usage: hahaha just a Gps.
- warning: Don't Use This Command Much Times.
-"""
-
-__mod_name__ = "Gps"
+REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/980cd3c855f8e7c0bcdc9.jpg) to Make Your Groups Secured and Organized ! My friend : 『 [Free De la hoya](t.me/FreedelahoyaRobot) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @Pegasusupdates «««"
+  
+BUTTONS = InlineKeyboardMarkup(
+      [[
+        InlineKeyboardButton("ʀᴇᴘᴏꜱɪᴛᴏʀʏ", url=f"https://github.com/ValtAoiTheBot/ValtAoiTheBot"),
+        InlineKeyboardButton(" ᴊᴏɪɴ ", url=f"https://t.me/ValtAoitheBotHero"),
+      ],[
+        InlineKeyboardButton(" Pegasus Network ", url="https://t.me/PegasusXteam"),
+        InlineKeyboardButton("Pegasus Support ", url="https://t.me/pegasussupportofficial"),
+      ],[
+        InlineKeyboardButton(" Pegasus Updates ", url="https://t.me/Pegasusupdates"),
+        InlineKeyboardButton(" My friend ", url="https://t.me/FreedelahoyaRobot"),
+      ]]
+    )
+  
+  
+@pbot.on_message(filters.command(["source"]))
+async def repo(pbot, update):
+    await update.reply_text(
+        text=REPO_TEXT,
+        reply_markup=BUTTONS,
+        disable_web_page_preview=True,
+        quote=True
+    )
