@@ -11,7 +11,7 @@ def send_message(message, text, *args, **kwargs):
             return message.reply_text(text, quote=False, *args, **kwargs)
 
 
-def typing_action(func):
+def typing_action(func): 
     """Sends typing action while processing func command."""
 
     @wraps(func)
