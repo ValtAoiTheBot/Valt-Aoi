@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 import random
 import time
@@ -86,6 +88,8 @@ def meow(update: Update, context: CallbackContext):
 __help__ = """
  • `/nyaa`*:* Use this to get cute Anime Neko Gifs!
  • `/meow`*:* Use this to get cute Real Cat Gifs!
+
+@VALTAOITHEBOT
 """
 
 
