@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import os
 import math
 import requests
@@ -454,6 +456,8 @@ __help__ = """
  ❍ /getsticker*:* reply to a sticker to me to upload its raw PNG file.
  ❍ /kang*:* reply to a sticker to add it to your pack.
  ❍ /stickers*:* Find stickers for given term on combot sticker catalogue
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "STICKERS"
