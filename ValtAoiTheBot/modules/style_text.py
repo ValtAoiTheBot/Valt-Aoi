@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot import dispatcher
 from ValtAoiTheBot.modules.disable import DisableAbleCommandHandler
 from ValtAoiTheBot.modules.helper_funcs.alternate import typing_action
@@ -489,6 +491,8 @@ __help__ = """
  - /blue <text>: bluify your text!
  - /latin <text>: latinify your text!
  - /lined <text>: lined your text!
+
+@VALTAOITHEBOT
 """
 __mod_name__ = "StyleText"
 
