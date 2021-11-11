@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import re
 import random
 from html import escape
@@ -610,6 +612,7 @@ doin?
 *Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
 Check `/markdownhelp` to know more!
 
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Filters"
