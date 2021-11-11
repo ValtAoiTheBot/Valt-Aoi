@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import datetime
 import html
 import textwrap
@@ -569,6 +571,7 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • `/kayo <anime>`*:* search an anime on animekayo.com
  • `/airing <anime>`*:* returns anime airing info.
 
+@VALTAOITHEBOT
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime)
