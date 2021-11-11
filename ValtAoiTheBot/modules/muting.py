@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 from typing import Optional
 
@@ -226,6 +228,8 @@ __help__ = """
  • `/mute <userhandle>`*:* silences a user. Can also be used as a reply, muting the replied to user.
  • `/tmute <userhandle> x(m/h/d)`*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  • `/unmute <userhandle>`*:* unmutes a user. Can also be used as a reply, muting the replied to user.
+
+@VALTAOITHEBOT
 """
 
 MUTE_HANDLER = CommandHandler("mute", mute)
