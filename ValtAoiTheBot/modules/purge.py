@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages, user_is_admin)
 from ValtAoiTheBot import telethn
@@ -74,6 +76,8 @@ __help__ = """
  - /del: deletes the message you replied to
  - /purge: deletes all messages between this and the replied to message.
  - /purge <integer X>: deletes the replied message, and X messages following it if replied to a message.
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Purge"
