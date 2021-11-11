@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import json, time, os
 from io import BytesIO
 
@@ -377,6 +379,7 @@ __help__ = """
 
  • `/export`: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
 
+@VALTAOITHEBOT
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)
