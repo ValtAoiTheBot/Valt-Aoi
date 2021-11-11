@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import speedtest
 from ValtAoiTheBot import DEV_USERS, dispatcher
 from ValtAoiTheBot.modules.disable import DisableAbleCommandHandler
