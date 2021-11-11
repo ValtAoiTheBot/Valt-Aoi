@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import re, ast
 from io import BytesIO
 from typing import Optional
@@ -493,6 +495,7 @@ A button can be added to a note by using standard markdown link syntax - the lin
  • `/removeallnotes`*:* removes all notes from the group
  *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
  
+@VALTAOITHEBOT
 """
 
 __mod_name__ = "Notes"
