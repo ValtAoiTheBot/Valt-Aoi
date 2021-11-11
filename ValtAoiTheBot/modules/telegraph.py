@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from ValtAoiTheBot.tevents import register
 from ValtAoiTheBot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
@@ -82,6 +84,8 @@ def resize_image(image):
 __help__ = """
  ❍ /tm :Get Telegraph Link Of Replied Media
  ❍ /txt :Get Telegraph Link of Replied Text
+
+@VALTAOITHEBOT
 """
 
 __mod_name__ = " Telegraph "
