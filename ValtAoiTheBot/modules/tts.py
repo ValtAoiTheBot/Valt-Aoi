@@ -1,3 +1,4 @@
+# @VALTAOITHEBOT Dont remove this
 
 import html
 import re
@@ -48,6 +49,8 @@ def tts(update: Update, context: CallbackContext):
 
 __help__ = """
  - /tts <text>: convert text to speech
+
+ @VALTAOITHEBOT
  """
 TTS_HANDLER = DisableAbleCommandHandler("tts", tts, pass_args=True)
 dispatcher.add_handler(TTS_HANDLER)
