@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from time import sleep
 
 import ValtAoiTheBot.modules.sql.global_bans_sql as gban_sql
