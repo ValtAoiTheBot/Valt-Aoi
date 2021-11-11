@@ -3,16 +3,16 @@
 <p align="center">
 <a href="https://t.me/PigasusSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://t.me/PigasusUpdates"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
-<a href="https://t.me/GilbertAnimeBot"> <img src="https://img.shields.io/badge/GilbertAnimebot-blue?&logo=telegram" alt="Gilbert on Telegram" /> </a><br>
-<a href="https://www.codefactor.io/repository/github/aasfcyberking/gilbertanimebot"><img src="https://www.codefactor.io/repository/github/aasfcyberking/gilbertanimebot/badge?s=f28e94dd3f2ef4ef858a0ad32b7c0519bfa11e48" alt="CodeFactor" /></a>
-<a href="https://deepsource.io/gh/AASFCYBERKING/GilbertAnimeBot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
+<a href="https://t.me/ValtAoITheBot"> <img src="https://img.shields.io/badge/GilbertAnimebot-blue?&logo=telegram" alt="Gilbert on Telegram" /> </a><br>
+<a href="https://www.codefactor.io/repositoryhttps:/github.com/ValtAoiTheBot/ValtAoiTheBot"><img src="https://www.codefactor.io/repository/github.com/ValtAoiTheBot/badge?s=f28e94dd3f2ef4ef858a0ad32b7c0519bfa11e48" alt="CodeFactor" /></a>
+<a href="https://deepsource.io/gh/ValtAoiTheBot/ValtAoiTheBot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.5-brightgreen?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.16.4-brightgreen?&style=flat-round&logo=github" alt="Telethon" /> </a>
 <a href="https://docs.python.org"> <img src="https://img.shields.io/badge/Python-3.9.7-brightgreen?&style=flat-round&logo=python" alt="Python" /> </a><br>
-<a href="https://github.com/AASFCYBERKING"> <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source" /> </a>
-<a href="https://GitHub.com/AASFCYBERKING/GilbertAnimeBot"> <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen.svg" alt="Maintenance" /> </a><br>
-<a href="https://github.com/AASFCYBERKING/GilbertAnimeBot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
+<a href="https://github.com/ValtAoiTheBot"> <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source" /> </a>
+<a href="https://github.com/ValtAoiTheBot/ValtAoiTheBot"> <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen.svg" alt="Maintenance" /> </a><br>
+<a href="https://github.com/ValtAoiTheBot/ValtAoiTheBot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-blue.svg?style=flat-round" alt="PRs" /> </a>
 </p>
 
@@ -58,7 +58,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 	
   <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/ValtAoiTheBot/Valt_Aoi">
+        <a href="https://heroku.com/deploy?template=https://github.com/ValtAoiTheBot/ValtAoiTheBot">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
