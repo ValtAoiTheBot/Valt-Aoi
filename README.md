@@ -81,7 +81,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 <h2>
 
 ```console
-    ValtAoi@arch:~$ git clone https://github.com/https://github.com/ValtAoiTheBot/Valt_Aoi
+    ValtAoi@arch:~$ git clone https://github.com/ValtAoiTheBot/ValtAoiTheBot
     ValtAoi@arch:~$ cd ValtAoiTheBot
     ValtAoi@arch:~$ cp sample_config.py config.py
 ```
