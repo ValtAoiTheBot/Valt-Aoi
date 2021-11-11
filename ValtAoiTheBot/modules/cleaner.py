@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import html
 
 from ValtAoiTheBot import ALLOW_EXCL, CustomCommandHandler, dispatcher
@@ -214,6 +216,8 @@ Blue text cleaner removed any made up commands that people send in your chat.
  *Following are Disasters only commands, admins cannot use these:*
  • `/gignoreblue <word>`*:* globally ignorea bluetext cleaning of saved word across Emilia.
  • `/ungignoreblue <word>`*:* remove said command from global cleaning list
+
+@VALTAOITHEBOT
 """
 
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler("cleanblue",
