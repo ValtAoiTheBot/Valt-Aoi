@@ -186,7 +186,12 @@
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
          "required": false,
          "value": ""
-      },             
+      },
+       "ARQ_API_URL": {
+         "description": "Defult -> https://thearq.tech/",
+         "required": true,
+         "value": "https://thearq.tech/"
+      },
       "REM_BG_API_KEY": {
          "description": "",
          "required": false,
