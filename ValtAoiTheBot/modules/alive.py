@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from telethon import events, Button, custom
 import re, os
 from ValtAoiTheBot.events import register
