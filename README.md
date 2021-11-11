@@ -1,10 +1,23 @@
 ![Valt Aoi](https://telegra.ph/file/a67c2340316ee08944927.jpg)
 # Valt Aoi robot
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/IzumiCypherX/EmiliaAnimeBot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html)<br> [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)<br> [![Updates channel!](https://img.shields.io/badge/Join%20Channel-↗-red)](https://t.me/pigasusupdates) 
-[![Support Group!](https://img.shields.io/badge/Join%20Group-↗-green)](https://t.me/PigasusSupport)
+<p align="center">
+<a href="https://t.me/PigasusSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
+<a href="https://t.me/PigasusUpdates"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
+<a href="https://t.me/GilbertAnimeBot"> <img src="https://img.shields.io/badge/GilbertAnimebot-blue?&logo=telegram" alt="Gilbert on Telegram" /> </a><br>
+<a href="https://www.codefactor.io/repository/github/aasfcyberking/gilbertanimebot"><img src="https://www.codefactor.io/repository/github/aasfcyberking/gilbertanimebot/badge?s=f28e94dd3f2ef4ef858a0ad32b7c0519bfa11e48" alt="CodeFactor" /></a>
+<a href="https://deepsource.io/gh/AASFCYBERKING/GilbertAnimeBot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
+<a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.5-brightgreen?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
+<a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.16.4-brightgreen?&style=flat-round&logo=github" alt="Telethon" /> </a>
+<a href="https://docs.python.org"> <img src="https://img.shields.io/badge/Python-3.9.7-brightgreen?&style=flat-round&logo=python" alt="Python" /> </a><br>
+<a href="https://github.com/AASFCYBERKING"> <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source" /> </a>
+<a href="https://GitHub.com/AASFCYBERKING/GilbertAnimeBot"> <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen.svg" alt="Maintenance" /> </a><br>
+<a href="https://github.com/AASFCYBERKING/GilbertAnimeBot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
+<a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-blue.svg?style=flat-round" alt="PRs" /> </a>
+</p>
 
 
-> If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems.
+> If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems And dont forget to give star
 
 
 ### Can be found on telegram as [Valt Aoi ](https://t.me/VALTAOITHEBOT).
