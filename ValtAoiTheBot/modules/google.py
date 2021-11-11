@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from bs4 import BeautifulSoup
 import urllib
 from ValtAoiTheBot import telethn as tbot
@@ -284,4 +286,6 @@ __help__ = """
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
  ❍ Masha <query>*:* Masha answers the query
   💡Ex: `Masha where is India?`
+
+@VALTAOITHEBOT
 """
