@@ -4,6 +4,7 @@
 <a href="https://telegram.dog/PigasusSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://telegram.dog/PigasusUpdates"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
 <a href="https://telegram.dog/ValtAoITheBot"> <img src="https://img.shields.io/badge/ValtAoiTheBot-blue?&logo=telegram" alt="ValtAoiTheBot" /> </a><br>
+<a href="https://www.codefactor.io/repositoryhttps:/github.com/ValtAoiTheBot/ValtAoiTheBot"><img src="https://www.codefactor.io/repository/github.com/ValtAoiTheBot/badge?s=f28e94dd3f2ef4ef858a0ad32b7c0519bfa11e48" alt="CodeFactor" /></a>
 <a href="https://deepsource.io/gh/ValtAoiTheBot/ValtAoiTheBot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.5-brightgreen?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
@@ -26,32 +27,6 @@
 
 
 ### Can be found on telegram as [Valt Aoi ](https://telegram.dog/VALTAOITHEBOT).
-
-### Status
-
-+ [x] Maintained
-+ [x] Support Group Included
-+ [x] Free
-+ [x] OpenSourced
-+ [x] Working Instance Available
-+ [x] Clean Code
-
-## Credits
-
-- [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot) This Bot Based On Saitama And For Anime Modules.
-- [kurumi](https://github.com/Hirojazz/kurumi) For Some Modules 
-- [Dank-del](https://github.com/Dank-del/Chizuru/) for some modules.
-- [Hirojazz](https://github.com/Hirojazz) for Some modules.
-- [Paul Larsen](https://github.com/PaulSonOfLars) Real Work.
-- [Image-Editor](https://github.com/TroJanzHEX/Image-Editor) For ImageEditor Module
-- [TroJanzHEX](https://github.com/TroJanzHEX) For ImageEditor Module
-- [TheHamkerCat](https://t.me/Freedelahoyarobot) For Inline Features
-## Warning⚠️
-
-```
-Fork At Your Own Risk 😸
-Must Add The Orginal Repo Link On PM_START Else Gban And U Proving You itself Gay
-```
 
 
 
@@ -107,3 +82,20 @@ Start with ```python -m ValtAoiTheBot```
  </b>
 </p>
 </details>
+
+## Credits
+
+- [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot) This Bot Based On Saitama And For Anime Modules.
+- [kurumi](https://github.com/Hirojazz/kurumi) For Some Modules 
+- [Dank-del](https://github.com/Dank-del/Chizuru/) for some modules.
+- [Hirojazz](https://github.com/Hirojazz) for Some modules.
+- [Paul Larsen](https://github.com/PaulSonOfLars) Real Work.
+- [Image-Editor](https://github.com/TroJanzHEX/Image-Editor) For ImageEditor Module
+- [TroJanzHEX](https://github.com/TroJanzHEX) For ImageEditor Module
+- [TheHamkerCat](https://t.me/Freedelahoyarobot) For Inline Features
+## Warning⚠️
+
+```
+Fork At Your Own Risk 😸
+Must Add The Orginal Repo Link On PM_START Else Gban And U Proving You itself Gay
+```
