@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import subprocess
 
 from ValtAoiTheBot import LOGGER, dispatcher
