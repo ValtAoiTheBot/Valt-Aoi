@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import requests
 url = "https://iamai.p.rapidapi.com/ask"
 from ValtAoiTheBot import telethn, OWNER_ID
