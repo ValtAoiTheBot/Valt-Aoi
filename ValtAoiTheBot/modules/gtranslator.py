@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from emoji import UNICODE_EMOJI
 from google_trans_new import LANGUAGES, google_translator
 from telegram import ParseMode, Update
@@ -95,6 +97,8 @@ __help__ = """
 *Example:* 
  ❍ /tr en*:* translates something to english
  ❍ /tr hi-en*:* translates hindi to english
+
+@VALTAOITHEBOT
 """
 
 TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], totranslate)
