@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 from datetime import datetime
 
 from pyrogram import filters
