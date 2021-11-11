@@ -1,3 +1,5 @@
+# @VALTAOITHEBOT Dont remove this
+
 import importlib
 
 from ValtAoiTheBot import dispatcher
