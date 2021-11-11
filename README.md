@@ -17,7 +17,12 @@
 </p>
 
 
-> If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems And dont forget to give star
+> If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems And dont forget to give star 
+
+
+
+> Mainly Note if you not put any cridits to The botand modules you are the Mother Dicker
+
 
 
 ### Can be found on telegram as [Valt Aoi ](https://t.me/VALTAOITHEBOT).
