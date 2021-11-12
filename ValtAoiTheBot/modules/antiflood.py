@@ -363,7 +363,7 @@ will result in restricting that user.
  `3d` = 3 days
  `1w` = 1 week
 
-@VALTAOITHEBOT
+@DareAbijth
  """
 
 __mod_name__ = "Anti-Flood"
