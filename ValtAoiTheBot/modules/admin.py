@@ -459,7 +459,7 @@ __help__ = """
  •  `/runmute user group`*:* Remote un-mute
  •  `/ginfo username/link/ID`*:* Pulls info panel for entire group
 
-@VALTAOITHEBOT
+@DareAbijth
 
 """
 
