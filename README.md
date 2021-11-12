@@ -1,10 +1,10 @@
 ![Valt Aoi](https://telegra.ph/file/a67c2340316ee08944927.jpg)
 # Valt Aoi 
 <p align="center">
-<a href="https://telegram.dog/PigasusSupport"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
-<a href="https://telegram.dog/PigasusUpdates"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
-<a href="https://telegram.dog/ValtAoITheBot"> <img src="https://img.shields.io/badge/ValtAoiTheBot-blue?&logo=telegram" alt="ValtAoiTheBot" /> </a><br>
-<a href="https://deepsource.io/gh/ValtAoiTheBot/ValtAoiTheBot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
+<a href="https://telegram.dog/DMT_Movies_Discussion"> <img src="https://img.shields.io/badge/Support-Chat-blue?&logo=telegram" alt="Support Chat" /> </a>
+<a href="https://telegram.dog/tamilblasterzzzz"> <img src="https://img.shields.io/badge/Update-Channel-blue?&logo=telegram" alt="Update Channel" /> </a><br>
+<a href="https://telegram.dog/DareAbijth"> <img src="https://img.shields.io/badge/Creator-blue?&logo=telegram" alt="Creator" /> </a><br>
+<a href="https://deepsource.io/gh/DareAbijth/Valt-Aoi/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.5-brightgreen?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.16.4-brightgreen?&style=flat-round&logo=github" alt="Telethon" /> </a>
