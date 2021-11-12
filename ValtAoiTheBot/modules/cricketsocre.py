@@ -49,7 +49,7 @@ __help__ = """
 *live cricket score*
  ❍ /cs*:* Latest live scores from cricinfo
 
-@VALTAOITHEBOT
+@DareAbijth
 """
 
 __mod_name__ = "Cʀɪᴄᴋᴇᴛ🏏"
