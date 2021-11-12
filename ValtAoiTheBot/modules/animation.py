@@ -369,7 +369,7 @@ __help__ = """
 - /brain
 - /police
 
-@VALTAOITHEBOT
+@DareAbijth
 """
 KILL_HANDLER = DisableAbleCommandHandler("kill",kill)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
