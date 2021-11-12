@@ -128,7 +128,7 @@ __help__ = """
  • `brb <reason>`*:* same as the afk command - but not a command.
 When marked as AFK, any mentions will be replied to with a message to say you're not available!
 
-@VALTAOITHEBOT
+@DareAbijth
 """
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk)
