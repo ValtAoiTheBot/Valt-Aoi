@@ -20,12 +20,12 @@
 
 
 
-### Can be found on telegram as [Valt Aoi ](https://telegram.dog/VALTAOITHEBOT).
+### My Creator Can be found on telegram as [⚡️࿐乂Ͼ🅰️🅱️🅸🅹🆃🅸🅷Ͽ乂࿐⚡️ .ᴋ](https://telegram.dog/DareAbijth).
 
 
 
 
-### The Support group can be reached out to at [PEGASUS-SUPPORT](https://telegram.dog/pegasussupportofficial), where you can ask for help about [Valt Aoi ](https://telegram.dog/VALTAOITHEBOT), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+### The Support group can be reached out to at [𝕋𝔸𝕄𝕀𝕃𝔹𝕃𝔸𝕊𝕋𝔼ℝ𝕊](https://telegram.dog/tamilblasterzzzz), where you can ask for help about [∂ιѕєиу мσνιєѕ ∂ιѕ¢υѕѕισи ](https://telegram.dog/DMT_Movies_Discussion), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
@@ -36,7 +36,7 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 	
   <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/ValtAoiTheBot/ValtAoiTheBot">
+        <a href="https://heroku.com/deploy?template=https://github.com/DareAbijth/Valt-Aoi">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
@@ -54,14 +54,14 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 <h2>
 
 ```console
-    ValtAoi@arch:~$ git clone https://github.com/ValtAoiTheBot/ValtAoiTheBot
-    ValtAoi@arch:~$ cd ValtAoiTheBot
+    ValtAoi@arch:~$ git clone https://github.com/DareAbijth/Valt-Aoi
+    ValtAoi@arch:~$ cd Valt-Aoi=
     ValtAoi@arch:~$ cp sample_config.py config.py
 ```
 
 Edit Config.py with your own Values
 
-Start with ```python -m ValtAoiTheBot```
+Start with ```python -m Valt-Aoi```
 
 </details>    
 
