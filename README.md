@@ -78,12 +78,8 @@ Start with ```python -m Valt-Aoi```
 - [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot) This Bot Based On Saitama And For Anime Modules.
 - [EmiliaAnimeBot](https://github.com/IzumiCypherX/EmiliaAnimeBot) For Some Modules 
 - [Dank-del](https://github.com/Dank-del/Chizuru/) for some modules.
-- [Hirojazz](https://github.com/Hirojazz) for Some modules.
-- [Paul Larsen](https://github.com/PaulSonOfLars) Real Work.
 - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor) For ImageEditor Module
-- [TroJanzHEX](https://github.com/TroJanzHEX) For ImageEditor Module
-## Warning⚠️
-
+- [👀Me Also](https://github.com/DareAbijth) For Some Modules In Alive And Some
 ```
 Fork At Your Own Risk 😸
 Must Add The Orginal Repo Link On PM_START Else Gban And U Proving You itself Gay
