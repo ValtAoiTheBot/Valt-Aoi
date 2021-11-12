@@ -5,7 +5,7 @@ import re, os
 from ValtAoiTheBot.events import register
 from ValtAoiTheBot import telethn as tbot
 from ValtAoiTheBot import telethn as tgbot
-PHOTO = "https://telegra.ph/file/ad4d7b8a1970079468ec2.jpg"
+PHOTO = "https://telegra.ph/file/f69f2d392489d460b302e.mp4"
 @register(pattern=("/alive"))
 async def awake(event):
   PIKACHU = event.sender.first_name
