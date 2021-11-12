@@ -9,7 +9,7 @@
          "manager",
          "Valt"
       ],   
-   "repository": "https://github.com/ValtAoiTheBot/ValtAoiTheBot",
+   "repository": "https://github.com/DareAbijth/Valt-Aoit",
    "addons": [
       {
          "options": {
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Leave it dont change.",
          "required": true,
-         "value": "1912630709"
+         "value": "928257454"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -59,7 +59,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Leave it dont change ",
-         "value": "@Rohith_no_1"
+         "value": "@DareAbijth"
       },
       "SUPPORT_CHAT": {
          "description": "Put your dupport group username without @",
